@@ -1,6 +1,6 @@
 [
   {
-    "name"              : "node-app",
+    "name"              : "Deep Water Pack",
     "script"            : "app.js",
     "log_date_format"   : "YYYY-MM-DD HH:mm Z",
     "merge_logs"        : false,
@@ -11,13 +11,59 @@
     "env":
     {
       "NODE_ENV"        : "production",
-      "RPC_HOST"        : "localhost",
+      "RPC_HOST"        : "34.123.48.160",
       "RPC_PORT"        : "8545",
       "LISTENING_PORT"  : "30303",
-      "INSTANCE_NAME"   : "",
+      "INSTANCE_NAME"   : "Deep Water Pack",
+      "MINING_ADDRESS"  : "0xeb92d6ccfaa630de65e0f361c19366d57457b006",
       "CONTACT_DETAILS" : "",
-      "WS_SERVER"       : "wss://rpc.ethstats.net",
-      "WS_SECRET"       : "see http://forum.ethereum.org/discussion/2112/how-to-add-yourself-to-the-stats-dashboard-its-not-automatic",
+      "WS_SERVER"       : "http://localhost:4500",
+      "WS_SECRET"       : "ABC@123",
+      "VERBOSITY"       : 2
+    }
+  },{
+    "name"              : "Paige's Pack",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "production",
+      "RPC_HOST"        : "44.224.107.5",
+      "RPC_PORT"        : "8545",
+      "LISTENING_PORT"  : "30303",
+      "INSTANCE_NAME"   : "Paige's Pack",
+      "MINING_ADDRESS"  : "0x1b3e635df4b13b6d92e6073243c1665e268cb002",
+      "CONTACT_DETAILS" : "",
+      "WS_SERVER"       : "http://localhost:4500",
+      "WS_SECRET"       : "ABC@123",
+      "VERBOSITY"       : 2
+    }
+  },
+  {
+    "name"              : "Jules' Pack",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "production",
+      "RPC_HOST"        : "54.69.22.33",
+      "RPC_PORT"        : "8545",
+      "LISTENING_PORT"  : "30303",
+      "INSTANCE_NAME"   : "Jules' Pack",
+      "MINING_ADDRESS"  : "0x769559cf7cd1a6959bef27558d0453edea99b001",
+      "CONTACT_DETAILS" : "",
+      "WS_SERVER"       : "http://localhost:4500",
+      "WS_SECRET"       : "ABC@123",
       "VERBOSITY"       : 2
     }
   }
